@@ -1,0 +1,9 @@
+<ifModule mod_rewrite.c>
+    RewriteEngine on
+    <If "%{HTTP_HOST} == '10.10.1.1'">
+        RewriteRule ^/?$ /index.php [NC,L,QSA]
+    </If>
+    <If "%{HTTP_HOST} == 'sedudo.nganjukkab.go.id'">
+        RewriteRule ^/?$ /index2.php [NC,L,QSA]
+    </If>
+</ifModule>

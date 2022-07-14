@@ -1,0 +1,30 @@
+.dinsos-color {
+  color: #1BBC9B;
+}
+
+.btn-qibul {
+  color: #ffffff;
+  background-color: #1BBC9B;
+  border-color: #1BBC9B;
+  box-shadow: 0 1px 1px rgba(53, 234, 197, 0.075);
+}
+
+.btn-qibul:hover {
+  color: #ffffff;
+  background-color: #16715e;
+  border-color: #16715e;
+}
+
+.btn-qibul:focus, .btn-qibul.focus {
+  box-shadow: 0 1px 1px rgba(53, 234, 197), 0 0 0 0.2rem rgba(53, 234, 197);
+}
+
+.card-qibul.card-outline {
+  border-top: 5px solid #1BBC9B;
+}
+
+.modal-header-qibul{
+	background-color: #1BBC9B;
+	color: #fff;
+	margin-bottom: 20px;
+}
